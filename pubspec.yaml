@@ -1,0 +1,39 @@
+name: calculadora
+description: Calculadora
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^0.13.7
+  firebase_core: ^0.4.5
+  firebase_auth: ^0.16.1
+  cupertino_icons: ^0.1.3
+  animate_do: ^1.7.2
+  math_expressions: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/calculadora.png"
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/calculadora.png
+    - assets/images/logo.png
+
+
+
